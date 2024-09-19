@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #312e2b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav{
+    display: grid;
+    width: 180px;
+    height: 100%;
+    background-color: #00000033;
+    position: fixed;
+    align-content: space-between;
+}
+
+
+.nav .nav-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav .nav-buttons a{
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 15px;
+    transition: 0s;
+    font-size: 18px;
+    font-weight: ;
+    
+}
+
+.nav .nav-buttons a:hover{
+    background-color: #0002;
+}
+
+.nav .nav-buttons .av{
+    color: rgb(73, 157, 235);
+}
+
+.nav .nav-buttons input{
+    width: 145px;
+    margin: 8px;
+    padding: 6px;
+    background-color: #3d3c3a;
+    border: solid 1px #ffffff10;
+    border-radius: 3px;
+    transition: 0s;
+}
+
+.nav .nav-buttons input:hover{
+    border: solid 1px #ffffff3b;
+}
+
+
+.nav .nav-config{
+    display: flex;
+    position: relative;
+    align-content: end;
+    flex-direction: column;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff6e;
+ }
+
+ .nav .nav-config a{
+    margin-left: 2px;
+    padding: 7px;
+    transition: 0s;
+    text-decoration: none;
+    color: #ffffff73;
+ }
+ 
+
+ .nav .nav-config a:hover{
+    background-color: #0000003b;
+ }
+
+.legalzinho .imagem img{
+    
+    margin: auto;
+    border-radius: 40%;
+    margin: 20px auto;
+    width: 200px;
+
+    
+}
+
+.legalzinho .imagem {
+    text-align: center;
+    width: 250px;
+    margin: 0px auto;
+    height: auto;
+}
+
+.legalzinho{
+    height: 1200px;
+}
+
+.legalzinho .desc{
+    text-align: center;
+    width: 500px;
+    margin: 10px auto;
+    background-color: #867f75a2;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+.legalzinho .profile{
+    margin: 10px auto;
+    margin-top: -20px;
+    width: 60px;
+}
+
+.legalzinho .profile p{
+    margin: 10px auto;
+    text-align: center;
+    color: #f0f0f0;
+    width: 60px;
+    letter-spacing: 2px;
+}
+
+
+
